@@ -34,7 +34,7 @@ requestAnimationFrame(function loop() {
     const r = pixels[i]
     const g = pixels[i + 1]
     const b = pixels[i + 2]
-    const a = pixels[i + 3]
+    // const a = pixels[i + 3]
 
     const hsl = rgbToHsl(r, g, b)
     const distance = Math.sqrt((x - lightPos[0]) ** 2 + (y - lightPos[1]) ** 2)
