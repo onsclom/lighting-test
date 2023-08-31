@@ -13,8 +13,8 @@ async function loadImage(url: string) {
 }
 
 async function start() {
-  const texture = await loadImage("/LevelTexture.png")
-  const normal = await loadImage("/LevelNormal.png")
+  const texture = await loadImage("./texturetest2.png")
+  const normal = await loadImage("./LevelNormal.png")
 
   document.body.appendChild(canvas)
 
